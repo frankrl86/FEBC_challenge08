@@ -56,7 +56,7 @@ function displayForecast(forecastData) {
                   forecast.weather[0].icon
                 }.png" alt="Weather icon">
                 <p>Temp: ${forecast.main.temp} °C</p>
-                <p>Wind Speed: ${forecast.wind.speed} KPH</p>
+                <p>Wind: ${forecast.wind.speed} KPH</p>
                 <p>Humidity: ${forecast.main.humidity}%</p>
             </div>
         `;
