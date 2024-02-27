@@ -1,6 +1,6 @@
 // Constants for API key and base URL
 const apiKey = "ddc5aa2eec652fe49b8dc9d5151b269b"; // Replace with your actual API key
-const baseUrl = "https://api.openweathermap.org/data/2.5/";
+const baseUrl = "https://api.openweathermap.org/data/2.5/"; //API URL
 
 // Function to fetch the current weather by city name
 function fetchCurrentWeather(city) {
